@@ -20,5 +20,5 @@ script:
 deploy:
   provider: heroku
   api-key: 
-    secure: b9e10d5e-fd18-46e3-931a-4a5e2ef2e7a1
-  app: prenticedevops
+    secure: $HEROKU_API_KEY
+  app: prenticE
